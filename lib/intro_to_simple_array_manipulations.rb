@@ -28,7 +28,7 @@ end
 # decreases the length of the array by 2
 
 def pop_with_args(array)
-  array.pop(-2)
+  array.pop(0, -2)
 end
 
 
