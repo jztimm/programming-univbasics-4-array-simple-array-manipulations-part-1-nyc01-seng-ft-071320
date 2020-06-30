@@ -27,6 +27,8 @@ end
 # pop_with_args - takes in an argument of an array and uses the pop method with an argument of 2 to remove the last two array items and return them
 # decreases the length of the array by 2
 
-
+def pop_with_args(array)
+  array.pop(-2)
+end
 
 
