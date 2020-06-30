@@ -32,8 +32,12 @@ def pop_with_args(array)
 end
 
 
+# using_shift - takes in an argument of an array and uses the shift method to remove the first item and return it
+# decreases the length of the array by 1
 
-
+def using_shift(array)
+  array.shift
+end
 
 
 
